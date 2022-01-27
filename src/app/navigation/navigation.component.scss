@@ -1,0 +1,107 @@
+.navbar {    
+    background: rgba(3, 3, 3, 0.774);
+    background-attachment: fixed;
+    background-position: auto,center top;
+    font-family: "Acumin Pro Condensed";
+}
+  
+
+.navbar li{    
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.navbar-nav li a {
+    color: #fff ;    
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-family: "Acumin Pro Condensed", sans-serif; 
+    display: block;
+    transition: 0.5s;
+}
+
+.nav-item a:hover{   
+    transform: translateY(-3px);
+    color: #CE2023 !important;
+}
+
+.contactUsBtn{
+    margin-right: -3px;
+    margin-left: 10px;
+    background-color: #EB262A;
+    width: 116px;
+    height: 40px;
+    color: #FFFFFF !important;
+    text-align: center;
+    transition: 0.5s !important;
+    padding-top: 10px;
+}
+
+.contactUsBtn:hover{
+    transform: translateY(-3px) !important;
+    background-color: #CE2023 !important;
+   
+}
+
+
+
+@media screen and (min-width: 1800px)  {
+    
+    .container{
+        min-width: 1370px !important;
+    }
+
+    .contactUsDugme{
+        margin-right: -3px !important;
+        font: "AcuminProCondensed" !important;
+        font-weight: 400px !important;
+        letter-spacing: 0.7px;
+        line-height: 14px;
+        word-spacing:  0px;
+        height: 40px;
+        width: 116px;
+        cursor: pointer;
+        padding-top: 12px;
+    }
+    
+    .patient{        
+        margin-right: -10px !important;
+    }
+
+    .injury{
+        margin-right: -13px !important;
+        margin-left: -7px !important;
+    }
+
+    .servicesM{
+        padding-right: 18px !important;
+        height: 20px; padding-top: 0px ;
+        border-right: 1px solid red; 
+        padding-right: 12px;
+    }
+
+    .aboutM{
+        margin-right: -12px !important;
+    }
+
+    .homeM{
+        margin-right: -11px !important;
+        font-family: "Acumin Pro Condensed" !important;
+    }
+
+    .active a{
+        transform: translateY(-3px);
+        padding-bottom: 9px;
+        border-bottom: 2px solid #EB262A;
+        padding-top: 12px;
+    }
+
+   
+    
+  
+
+
+}

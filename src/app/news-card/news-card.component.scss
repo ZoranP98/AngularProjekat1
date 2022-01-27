@@ -1,0 +1,66 @@
+.zaKarte:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px #00000029;
+    color: red !important;
+    transition: 0.5s !important;
+}
+
+.kartica{
+    transition: 0.5s !important;
+}
+.kartica:hover{
+transform: translateY(-10px);
+box-shadow: 0px 12px 24px #00000029;
+}
+
+
+.dugmeNews{    
+background: #eb262a;
+color: #FFFFFF;
+padding: 8px;
+width: 116px;
+height: 40px;
+text-decoration: uppercase;
+text-decoration: none !important; 
+font-family: "Acumin Pro Condensed";  
+transition: 0.5s !important; 
+}
+
+.dugmeNews:hover{    
+background-color: #CE2023;
+color: #FFFFFF;
+transform: translateY(-3px) !important;
+}
+
+
+
+@media screen and (min-width: 1800px)  {
+    
+    .container{
+        min-width: 1370px !important;
+    }
+}
+
+
+
+
+@media screen and (min-width: 545px) and (max-width: 745px) {
+    
+    .plivacDiv{
+        height: 500px !important;
+    }
+
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 544px) {
+    
+    .plivacDiv{
+        height:  400px !important;
+    }
+
+}
+
+.plivacDiv{
+    height: 620px;
+}
