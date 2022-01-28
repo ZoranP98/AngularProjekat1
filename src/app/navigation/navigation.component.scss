@@ -38,12 +38,12 @@
     text-align: center;
     transition: 0.5s !important;
     padding-top: 10px;
-}
 
-.contactUsBtn:hover{
-    transform: translateY(-3px) !important;
-    background-color: #CE2023 !important;
-   
+    &:hover{
+        transform: translateY(-3px) !important;
+        background-color: #CE2023 !important;
+    }
+
 }
 
 
@@ -54,18 +54,18 @@
         min-width: 1370px !important;
     }
 
-    .contactUsDugme{
-        margin-right: -3px !important;
-        font: "AcuminProCondensed" !important;
-        font-weight: 400px !important;
-        letter-spacing: 0.7px;
-        line-height: 14px;
-        word-spacing:  0px;
-        height: 40px;
-        width: 116px;
-        cursor: pointer;
-        padding-top: 12px;
-    }
+    // .contactUsDugme{
+    //     margin-right: -3px !important;
+    //     font: "AcuminProCondensed" !important;
+    //     font-weight: 400px !important;
+    //     letter-spacing: 0.7px;
+    //     line-height: 14px;
+    //     word-spacing:  0px;
+    //     height: 40px;
+    //     width: 116px;
+    //     cursor: pointer;
+    //     padding-top: 12px;
+    // }
     
     .patient{        
         margin-right: -10px !important;
@@ -97,6 +97,8 @@
         padding-bottom: 9px;
         border-bottom: 2px solid #EB262A;
         padding-top: 12px;
+        font-family: "Acumin Pro Condensed" !important;
+        font-weight: 400 !important;
     }
 
    
