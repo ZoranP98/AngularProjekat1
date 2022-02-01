@@ -94,6 +94,7 @@
         padding: 9px;
         letter-spacing: 0.7px;
         transition: 0.5s !important;
+        margin-left: 2px;
     }
 
     .Services-btn-Exam:hover{
@@ -245,7 +246,7 @@
         font-family: "acumin-pro-condensed";
         padding: 8px;
         border: 1px solid white;
-        transition: 0.5s !important;
+        letter-spacing: 0.5px;
     }
     
     
@@ -257,13 +258,16 @@
     }
 
     .Proam-Performs-h3{
-        letter-spacing: 0.2px;
+        letter-spacing: 0.0px;
         font-size: 30px; 
         font-weight: 800; 
         line-height: 33px; 
         font-family: "acumin-pro-condensed";
     }
 
+    .firstServ{
+        margin-left: 50px !important;
+    }
 
     .list-ourServices{
         text-align: center !important;
@@ -271,6 +275,7 @@
         margin-bottom: 3px !important;
         margin-right: 22px;        
         font-family: "acumin-pro" !important;
+        font-weight: 600px !important;
         font-size: 14px;
         letter-spacing: 0.7px;
         color: red; 

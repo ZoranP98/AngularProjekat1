@@ -10,7 +10,7 @@
         font-family: "acumin-pro-condensed";
         font-weight: 700;
         font-size: 18px;
-        letter-spacing: 0.9px;
+        letter-spacing: 1px;
 
     }
 
@@ -18,7 +18,7 @@
         font-size: 18px; 
         font-weight: 700; 
         font-family:'acumin-pro-condensed'; 
-        letter-spacing: 0.9px;
+        letter-spacing: 1px;
     }
 
 
@@ -92,6 +92,7 @@
         font-family: "acumin-pro-condensed";
         font-size: 14px;
         letter-spacing: 0.7px;
+        line-height: 18px;
     }
 
     .footer-ul-marginTop{
@@ -105,7 +106,11 @@
             filter: invert(23%) sepia(51%) saturate(5884%) hue-rotate(347deg) brightness(95%) contrast(95%);
     }
             
-            
+    .navbar li{    
+            margin-left: 10px;
+            margin-right: 10px;
+            position: relative;
+        }     
     
     .nav-naDnu a {
         color: #fff !important;    
@@ -128,7 +133,26 @@
 
     }
             
+    .forCopyright{
+        font-family: "acumin-pro-condensed" !important;
+        font-weight: 700 !important;
+        font-size: 14px; 
+        letter-spacing: 0.7px !important;
+        padding-left: 30px !important;
+    }
 
+
+    .paddingLeft39{
+        padding-left: 39px;
+    }
+
+    .paddingLeft40{
+        padding-left: 40px;
+    }
+
+    .paddingLeft42{
+        padding-left: 42px;
+    }
 
 
 
