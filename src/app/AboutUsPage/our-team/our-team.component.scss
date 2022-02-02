@@ -1,0 +1,130 @@
+@media screen and (min-width: 516px) and (max-width: 990px) {
+    .slikaVelicina{
+        height: 325px !important;
+        width: 270px !important; 
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 516px) {
+    .slikaVelicina{
+        height: 550px !important;
+        width: 400px !important; 
+    }
+}
+
+
+
+
+.blok {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ekipa h2 {
+    font-family: "Acumin Pro Condensed";
+    font-weight: 700;
+}
+.ekipa h4 {
+    font-weight: 500;
+}
+
+
+.ekipaGrupa {
+    font-size: 24px;
+    line-height: 1;
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	margin: 45px 0px 30px;
+    font-family: "Acumin Pro Condensed";
+}
+
+.ekipaGrupa::before,
+.ekipaGrupa::after 
+{
+	content: "";
+	flex-grow: 1;
+	background: #EDEDED;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0;
+}
+
+.osobaDetalji {
+    padding: 40px;
+    box-shadow: 0px 3px 12px #00000019;
+}
+
+.osobaSlika img {
+    width: 172px;
+}
+
+.osobaTekst h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.osobaTekst h5 span {
+    font-family: "acumin-pro-condensed";
+    font-size: 18px;
+}
+.osobaTekst p {
+    font-family: "open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1800px)  {
+    
+    .container{
+        min-width: 1370px !important;
+    }
+
+   
+
+    .ourTeam{
+        margin-top: -30px !important;
+        font-family: "acumin-pro-condensed" !important;
+        font-weight: 700 !important;
+        font-size: 38px !important;
+        line-height: 50px !important;
+        word-spacing: 0px !important;
+        margin: 0 0 8px 0 !important;
+        height: 42px !important;
+        font-style: normal !important;
+    }
+
+    .ourMinds{
+        font-family: "acumin-pro-condensed" !important;
+        font-weight: 700 !important;
+        font-size: 24px !important;
+        line-height: 28px !important;
+        word-spacing: 0px;
+        margin: 0 0 8px 0;
+        padding-top: 8px !important;
+    }
+
+    .blok {
+        padding-top: 48px !important;
+        padding-bottom: 60px;
+    }
+
+    .osobaDetalji {
+        padding: 40px;
+        box-shadow: 0px 3px 12px #00000019;
+    }
+
+    .manjiT{
+        font-family: "acumin-pro-extra-condensed" !important;
+        font-size: 16px !important;
+    }
+
+
+}

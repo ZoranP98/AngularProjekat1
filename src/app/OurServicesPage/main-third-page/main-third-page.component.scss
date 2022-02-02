@@ -1,0 +1,37 @@
+@media screen and (min-width: 1800px)  {
+    
+    .container{
+        min-width: 1370px !important;
+    }
+
+}
+
+
+
+.coverText {
+    position: absolute;
+   
+    top: 400px;
+    left: px;
+    
+    
+    color: white;
+    font-family: "Acumin Pro Condensed";
+}
+
+.coverText h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 15px;
+    font-family: "Acumin Pro Condensed";
+}
+
+.coverText p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+
+

@@ -1,0 +1,134 @@
+
+
+.Proam-Performs-h3{
+    letter-spacing: 0.0px;
+    font-size: 30px; 
+    font-weight: 800; 
+    line-height: 33px; 
+    font-family: "acumin-pro-condensed";
+}
+
+.firstServ{
+    margin-left: 0px !important;
+}
+
+.list-ourServices{
+    text-align: center !important;
+    list-style-position: inside;
+    margin-bottom: 3px !important;
+    margin-right: 22px;        
+    font-family: "acumin-pro" !important;
+    font-weight: 600px !important;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: red; 
+}
+
+.HorizontalLine{
+    color: black; 
+    height: 1px; 
+    opacity: 1; 
+    width: 58%; 
+    margin: auto;
+}
+
+
+.ourServices-covidDiv{
+    padding: 24px; 
+    color: #8D8D8D; 
+    margin-top: 20px;  
+    margin: auto;
+    width: 64% !important;
+}
+
+
+.ourServices-covidTxt{
+    font-size: 14px;
+    font-family: "acumin-pro" !important;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 990px) {
+
+    .HorizontalLine{
+        display: none !important;
+    }
+    .firstinList{
+        margin-top: 15px !important;
+    }
+}
+
+
+
+
+.marginTop35{ margin-top: 35px;}
+.marginLeft90{ margin-left: 90px;}
+.marginLeft50{margin-left: 50px}
+@media screen and (max-width: 1000px)  {
+    .marginLeft90{ margin-left: 0px}
+    .marginLeft50{margin-left: 0px}
+    .marginTop33{margin-top: 37px !important; }
+    .marginTop52{margin-top: 52px !important; }
+}
+
+
+@media screen and (min-width: 1800px)  {
+
+    .container{
+        min-width: 1370px !important;
+    }
+
+    
+
+    .Proam-Performs-h3{
+        letter-spacing: 0.0px;
+        font-size: 30px; 
+        font-weight: 800; 
+        line-height: 33px; 
+        font-family: "acumin-pro-condensed";
+    }
+
+    .firstServ{
+        margin-left: 50px !important;
+    }
+
+    .list-ourServices{
+        text-align: center !important;
+        list-style-position: inside;
+        margin-bottom: 3px !important;
+        margin-right: 22px;        
+        font-family: "acumin-pro" !important;
+        font-weight: 600px !important;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        color: red; 
+    }
+   
+    .HorizontalLine{
+        color: black; 
+        height: 1px; 
+        opacity: 1; 
+        width: 58%; 
+        margin: auto;
+    }
+    
+
+    .ourServices-covidDiv{
+        padding: 24px; 
+        color: #8D8D8D; 
+        margin-top: 20px;  
+        margin: auto;
+        width: 64% !important;
+    }
+
+
+    .ourServices-covidTxt{
+        font-size: 14px;
+        font-family: "acumin-pro" !important;
+    }
+    
+}
+
+
+
+

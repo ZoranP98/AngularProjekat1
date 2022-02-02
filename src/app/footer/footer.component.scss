@@ -1,3 +1,151 @@
+.footer-h1{
+    font-family: "acumin-pro-condensed";
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+.footer-services-h1{
+    font-size: 18px; 
+    font-weight: 700; 
+    font-family:'acumin-pro-condensed'; 
+    letter-spacing: 1px;
+}
+
+
+.footer-horizontalLine{
+    background-color: #EB262A;
+    margin-top: 10px; 
+    height: 3px !important; 
+    width: 50px; 
+    opacity: 1;        
+}
+
+.footer-ul{
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+}
+
+.footer-li-a{
+    text-decoration: none !important; 
+    color: white; 
+    font-size:14px;
+}
+
+.footer-li-a:hover{
+    color: white;    
+}
+
+
+.btn-footer {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: 0.2s;
+    font-family: "acumin-pro-condensed";
+}
+.btn-footer:hover {
+    color: #fff;
+    padding-left: 15px;
+}
+.btn-footer img {
+    margin-bottom: 2px;
+}
+.btn-footer::before {
+    content: "• ";
+    color: red;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    opacity: 0;
+}
+.btn-footer:hover::before {
+    opacity: 1;
+}
+
+.footer-img-svg:hover{    
+    filter: none !important;
+}
+
+.footer-img-svg{            
+    height: 16px; 
+    filter: invert(30%) sepia(4%) saturate(20%) hue-rotate(340deg) brightness(103%) contrast(97%);
+}
+       
+.footer-span{
+    text-transform:uppercase;
+    font-family: "acumin-pro-condensed";
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 18px;
+}
+
+.footer-ul-marginTop{
+    margin: 0; 
+    padding: 0; 
+    margin-top: 24px;
+}
+
+
+.footer-socialNetwork:hover{
+        filter: invert(23%) sepia(51%) saturate(5884%) hue-rotate(347deg) brightness(95%) contrast(95%);
+}
+        
+.navbar li{    
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+    }     
+
+.nav-naDnu a {
+    color: #fff !important;    
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-family: "acumin-pro-condensed", sans-serif; 
+    display: block;
+    text-decoration: none !important;        
+}
+
+
+.nav-naDnu a:hover, 
+.nav-naDnu a:focus
+{
+    
+    transform: translateY(-3px);
+    text-decoration: underline;
+
+}
+        
+.forCopyright{
+    font-family: "acumin-pro-condensed" !important;
+    font-weight: 700 !important;
+    font-size: 14px; 
+    letter-spacing: 0.7px !important;
+    padding-left: 30px !important;
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 990px) {
+
+    
+    #bottomNavigationHide{
+        display: none;
+    }
+
+    .zaCopyright{
+        justify-content: center !important;
+    }
+}
 
 @media screen and (min-width: 1800px)  {
 

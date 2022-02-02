@@ -1,0 +1,43 @@
+.coverText {
+    position: absolute;    
+    top: 134px;
+    left: px;
+    color: white;
+    font-family: "acumin-pro-condensed";
+}
+
+.coverText h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 15px;
+    font-family: "acumin-pro-condensed";
+}
+
+.coverText p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+.prviParagraf{
+    font-size: 14px;
+    font-family: "acumin-pro-condensed";
+    color: #ffffff;
+    line-height: 19px;
+    word-spacing: 0px;
+    margin: 0 0 20px 0;
+
+}
+
+@media screen and (min-width: 1800px)  {
+    
+    .container{
+        min-width: 1370px !important;
+    }
+
+   
+
+
+
+}

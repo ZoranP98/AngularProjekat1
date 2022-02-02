@@ -54,6 +54,18 @@
     background-color: #CE2023 !important;
 }
 
+.navbar-toggler span {
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+}
+
 
 @media screen and (min-width: 1800px)  {
 
@@ -61,4 +73,146 @@
         min-width: 1370px !important;
     }
 
+}
+
+
+
+@media screen and (max-width: 991px)  {
+
+    .navbar-nav li a {
+        color: #fff !important;    
+        font-size: 26px;
+        font-weight: 600 !important;    
+        letter-spacing: 0.7px !important;
+        text-transform: uppercase;
+        font-family: "acumin-pro-condensed" !important; 
+        line-height: 20px !important;
+        display: block;
+        transition: 0.5s !important;
+        margin-bottom: 10px;
+    }
+    .nav-active{               
+        color: #EB262A !important;    
+        transform: translateY(-0px) !important;
+        padding-bottom: 0px;        
+        border-bottom: 0px solid #EB262A;      
+    }
+    .nav-link-services{
+        padding-right: 18px !important;
+        height: 20px; 
+        padding-top: 0px;
+        border-right: 0px solid red; 
+    }
+
+    .contactUsBtn{
+        margin-left: 10px;
+        background-color: #EB262A;
+        width: 200px !important;
+        height: 40px;
+        color: #FFFFFF !important;
+        text-align: center;
+        transition: 0.5s !important;
+        padding-top: 9px;
+    }
+    .contactUsBtn:hover{
+        transform: translateY(-3px) !important;
+        background-color: #CE2023 !important;
+    }
+
+}
+
+
+
+
+
+
+.modal-left {
+    padding: 40px !important;
+    min-width: 312px !important;
+}
+.modal-left a {
+    color: #fff !important;
+}
+
+.modal-left ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+    font-family: "Acumin Pro Condensed" !important;
+    font-weight: 500 !important;
+}
+.modal-left ul li {
+    margin-bottom: 20px !important;
+}
+.modal-left ul li:last-child{
+    margin-bottom: 0 !important;
+}
+.modal-left ul li a {
+    color: #fff !important;
+    letter-spacing: 0.7px !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    position: relative !important;
+}
+
+.modal-left .footer-social {
+    margin-top: 115px !important;
+}
+
+
+
+
+.modal-right {
+    padding: 40px 30px !important;
+   
+}
+
+.btn-close {
+	
+	background-size: 20px;
+	opacity: 1;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 25px;
+	top: 25px;
+    padding: 0;
+}
+
+.modal-content {
+	border: 0 !important;
+	border-radius: 0 !important;
+    box-shadow: 0px 12px 24px #0000005A !important;
+}
+.modal-body {
+	padding: 0 !important;
+}
+
+
+.labela {
+    font-family: "Acumin Pro Condensed" !important;
+    font-size: 11px!important;
+    text-transform: uppercase!important;
+    letter-spacing: 0.55px!important;
+    font-weight: 500!important;
+    margin-bottom: 0!important;
+}
+
+
+
+.form1-control {
+	border: 0 !important;
+	border-bottom: 1px solid #707070 !important;
+	border-radius: 0!important;
+    font-size: 13px!important;
+    font-weight: 500!important;
+    padding: 3px 0 7px!important;
+    font-family: "Acumin Pro Condensed"!important;
+}
+.form1-control:focus {
+	box-shadow: none!important;
+    border-color: #000!important;
+}
+.form1-control::placeholder {
+    color: #C9C9C9!important;
 }

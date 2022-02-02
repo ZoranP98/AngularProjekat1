@@ -8,6 +8,13 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AboutOurServicesComponent } from './about-our-services/about-our-services.component';
 import { NewsCardComponent } from './news-card/news-card.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule } from '@angular/router';
+
+import { MainSecondPageComponent } from './AboutUsPage/main-second-page/main-second-page.component';
+import { OurTeamComponent } from './AboutUsPage/our-team/our-team.component';
+import { MainThirdPageComponent } from './OurServicesPage/main-third-page/main-third-page.component';
+import { OurServiceComponent } from './OurServicesPage/our-service/our-service.component';
+import { ServicesFooterComponent } from './OurServicesPage/services-footer/services-footer.component';
 
 
 @NgModule({
@@ -17,11 +24,26 @@ import { FooterComponent } from './footer/footer.component';
     NavigationComponent,
     AboutOurServicesComponent,
     NewsCardComponent,
-    FooterComponent
+    FooterComponent,
+    MainSecondPageComponent,
+    OurTeamComponent,
+    MainThirdPageComponent,
+    OurServiceComponent,
+    ServicesFooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot([
+      {path: "", component: HederComponent},
+      {path: "", redirectTo: "../app/heder", pathMatch: "full"},
+
+      {path: "AboutUsPage", component: MainSecondPageComponent},
+      {path: "", redirectTo: "../app/AboutUsPage/main-second-page", pathMatch: "full"},
+
+      {path: "OurServicesPage", component: MainThirdPageComponent},
+      {path: "", redirectTo: "../app/OurServicesPage/MainThirdPageComponent", pathMatch: "full"}
+    ]),
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
