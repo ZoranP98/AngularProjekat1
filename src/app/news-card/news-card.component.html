@@ -115,13 +115,13 @@
             <p class="news-card-date-p" >{{item.PostDate}}</p>
             <h4 class="card-title fw-bold news-card-title">{{item.CTitle}}</h4>
             <p class="news-card-txt" >{{item.CText}}</p>
-            <a href="News1.html" class="text-black fw-bold news-card-readMore" >Read more<img style="margin-left: 8px;" src="../../assets/Images/Arrow Button.png" alt=""></a>
+            <a  routerLink="../singleNewsPage" routerLinkActive="active" class="text-black fw-bold news-card-readMore" >Read more<img style="margin-left: 8px;" src="../../assets/Images/Arrow Button.png" alt=""></a>
           </div>
         </div>      
       </div>      
     </div>
     <div class="text-center">         
-    <a href="News.html" type="button" class="news-btn" style="margin-top: 0px;">MORE NEWS</a>
+    <a href="News.html" type="button" class="news-btn" routerLink="../NewsPage" routerLinkActive="active" style="margin-top: 0px;">MORE NEWS</a>
     </div>
   </div>
 

@@ -15,6 +15,10 @@ import { OurTeamComponent } from './AboutUsPage/our-team/our-team.component';
 import { MainThirdPageComponent } from './OurServicesPage/main-third-page/main-third-page.component';
 import { OurServiceComponent } from './OurServicesPage/our-service/our-service.component';
 import { ServicesFooterComponent } from './OurServicesPage/services-footer/services-footer.component';
+import { MainNewsPageComponent } from './NewsPage/main-news-page/main-news-page.component';
+import { NewsSectionComponent } from './NewsPage/news-section/news-section.component';
+import { MainSingleNewsComponent } from './singleNewsPage/main-single-news/main-single-news.component';
+import { NewSectionComponent } from './singleNewsPage/new-section/new-section.component';
 
 
 @NgModule({
@@ -29,7 +33,11 @@ import { ServicesFooterComponent } from './OurServicesPage/services-footer/servi
     OurTeamComponent,
     MainThirdPageComponent,
     OurServiceComponent,
-    ServicesFooterComponent
+    ServicesFooterComponent,
+    MainNewsPageComponent,
+    NewsSectionComponent,
+    MainSingleNewsComponent,
+    NewSectionComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +49,16 @@ import { ServicesFooterComponent } from './OurServicesPage/services-footer/servi
       {path: "", redirectTo: "../app/AboutUsPage/main-second-page", pathMatch: "full"},
 
       {path: "OurServicesPage", component: MainThirdPageComponent},
-      {path: "", redirectTo: "../app/OurServicesPage/MainThirdPageComponent", pathMatch: "full"}
+      {path: "", redirectTo: "../app/OurServicesPage/MainThirdPageComponent", pathMatch: "full"},
+
+      {path: "NewsPage", component: MainNewsPageComponent},
+      {path: "", redirectTo: "../app/NewsPage/main-news-page", pathMatch: "full"},
+
+      {path: "singleNewsPage", component: MainSingleNewsComponent},
+      {path: "", redirectTo: "../app/singleNewsPage/main-single-news", pathMatch: "full"},
+
+
+      {path: "**", redirectTo: "", pathMatch: "full"},
     ]),
     AppRoutingModule,
   ],

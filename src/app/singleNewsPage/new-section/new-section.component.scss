@@ -1,0 +1,139 @@
+.pretraga {
+    position: relative;
+}
+
+.pretraga input {
+    border: 1px solid #DDDDDD;
+    border-radius: 30px;
+    padding: 12px 26px;
+    position: relative;
+}
+.pretraga input:focus {
+	box-shadow: none;
+	border-color: #DDDDDD;
+    background: #E8F0FE;
+    color: #000000;
+    
+}
+.pretraga button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: 0;
+}
+
+
+
+.Sekcija {
+    color: #575757;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--open-sans);
+    margin-top: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+
+.SekcijaLista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.SekcijaLista li {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px dashed #DDD;
+    color: #666666;
+}
+.SekcijaLista li:last-child {
+    border-bottom: 0;
+}
+.SekcijaLista li a {
+    color: #666666;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.SekcijaLista li a:hover {
+    color: #EB262A;
+}
+
+
+
+.tagovii {
+    margin-top: 21px;
+}
+.tagovii a {
+    font-family: sans-serif;
+    background: #F2F2F2;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1;
+    padding: 8.5px 15px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.tagovii a:hover {
+    background: #EB262A;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.zaKarte:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px #00000029;
+    color: red !important;
+}
+
+.kartica{
+    transition: 0.5s !important;
+}
+
+.kartica:hover{
+transform: translateY(-10px);
+box-shadow: 0px 12px 24px #00000029;
+}
+
+
+.dugmeNews{    
+background: #eb262a;
+color: #FFFFFF;
+padding: 8px;
+width: 116px;
+height: 40px;
+text-decoration: uppercase;
+text-decoration: none !important; 
+font-family: "Acumin Pro Condensed";   
+}
+
+.dugmeNews:hover{    
+background-color: #CE2023;
+color: #FFFFFF;
+transform: translateY(-3px) !important;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .desniPart{
+        width: 100% !important;        
+    }
+}
+
+
