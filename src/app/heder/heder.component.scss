@@ -26,8 +26,9 @@
 }
 .btnCover{    
     font-family: "acumin-pro-condensed" !important;
+    font-weight: 600;
     font-size: 14px;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.7px !important;
     background: #eb262a;    
     color: #FFFFFF;
     padding: 8px;
@@ -54,10 +55,25 @@
     .paddingTop13{
         padding-top: 13px;
     }
+ 
     
+    .fullHdversion{
+        display: block !important;
+    }
+
+    .restVersion{
+        display: none !important;
+    }
 }
 
 
+.fullHdversion{
+    display: none;
+}
+
+.restVersion{
+    display: block;
+}
 
 
 

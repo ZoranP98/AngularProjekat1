@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-new-angular-app';
+
+  scrollTop(){
+    window.scroll(0,0);
+  }
+
+
 }
