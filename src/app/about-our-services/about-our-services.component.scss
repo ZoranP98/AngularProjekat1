@@ -32,11 +32,11 @@
     text-decoration: none;
     margin-bottom: 30px;
     font-size: 14px;
-    font-weight: 700;
-    font-family: "Acumin Pro Condensed";
+    font-weight: 500;
+    font-family: "acumin-pro-condensed";
     margin-bottom: 47px;
     transition: 0.5s !important;
-    letter-spacing: 0.5px !important;
+    letter-spacing: 0.7px !important;
 
 }
 
@@ -64,12 +64,13 @@
 
 .Services-Text{
     font-size: 14px;
+    font-weight: 300;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
     line-height: 18.9px !important; 
     padding-left: 4px;  
     margin-top: -3px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.4px;
 }
 
 
@@ -85,7 +86,7 @@
     font-size: 14px;        
     font-family: "acumin-pro-condensed";
     padding: 9px;
-    letter-spacing: 0.7px;
+    letter-spacing: 1px !important;
     transition: 0.5s !important;
     margin-left: 2px;
 }
@@ -258,9 +259,9 @@
     font-family: "acumin-pro-condensed";
 }
 
-.firstServ{
-    margin-left: 0px !important;
-}
+// .firstServ{
+//     margin-left: 0px !important;
+// }
 
 .list-ourServices{
     text-align: center !important;
@@ -405,6 +406,7 @@
         margin-top: 18px !important;
         line-height: 19px;
         letter-spacing: 0.4px;
+        color: #000000;
     }
 
     .btnReadMore{
@@ -417,11 +419,10 @@
         text-decoration: none;
         margin-bottom: 30px;
         font-size: 14px;
-        font-weight: 700;
-        font-family: "Acumin Pro Condensed";
-        margin-bottom: 47px;
-        transition: 0.5s !important;
-        letter-spacing: 0.5px !important;
+        font-weight: 600 !important;
+        font-family: "acumin-pro-condensed" !important;
+        margin-bottom: 47px;        
+        letter-spacing: 1px !important;
 
     }
 
@@ -453,7 +454,7 @@
         font-family: "Open Sans", sans-serif;
         line-height: 18.9px !important; 
         padding-left: 4px;  
-        margin-top: -3px;
+        margin-top: -2px;
         letter-spacing: 0.3px;
     }
 
@@ -488,12 +489,13 @@
         background: black;
         color: #ffffff;
         text-align: center;
-        width: 133px;
+        width: 134px;
         height: 40px;
         text-decoration: uppercase;
         text-decoration: none;
         font-size: 14px;
-        font-weight: 700;
+        font-weight: 600 !important;
+        letter-spacing: 0.7px;
         font-family: "acumin-pro-condensed";
         padding: 9px;
         border: 1px solid #eb262a;
@@ -529,7 +531,7 @@
     }
     
     .Styles-btn-learnMore::before {
-        content: "• ";
+        content: "• ";        
         color: red;
         position: absolute;
         top: 2px;
@@ -643,15 +645,29 @@
         font-family: "acumin-pro-condensed";
     }
 
-    .firstServ{
-        margin-left: 50px !important;
-    }
+    // .firstServ{
+    //     margin-left: 50px !important;
+    // }
+
+
+    //lista ima i van media
 
     .list-ourServices{
         text-align: center !important;
         list-style-position: inside;
         margin-bottom: 3px !important;
-        margin-right: 22px;        
+        // margin-right: 22px;        
+        font-family: "acumin-pro" !important;
+        font-weight: 600px !important;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        color: red; 
+    }
+
+    .list-ourServicesF{
+        text-align: center !important;
+        list-style-position: inside;
+        margin-bottom: 3px !important;        
         font-family: "acumin-pro" !important;
         font-weight: 600px !important;
         font-size: 14px;
@@ -680,10 +696,27 @@
     .ourServices-covidTxt{
         font-size: 14px;
         font-family: "acumin-pro" !important;
+        line-height: 20px;
     }
     
+
+    .pcversion{
+        display: block !important;
+    }
+
+    .mobileVersion{
+        display: none !important;
+    }
 }
 
+.pcversion{
+    display: none;
+}
+
+
+.mobileVersion{
+    display: block;
+}
 
 
 
