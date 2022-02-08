@@ -19,7 +19,7 @@
     font-family: "Open Sans",sans-serif;
     margin-top: 18px !important;
     line-height: 19px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.0px;
 }
 
 .btnReadMore{
@@ -405,7 +405,7 @@
         font-family: "Open Sans",sans-serif;
         margin-top: 18px !important;
         line-height: 19px;
-        letter-spacing: 0.4px;
+        letter-spacing: 0.0px;
         color: #000000;
     }
 
@@ -455,7 +455,7 @@
         line-height: 18.9px !important; 
         padding-left: 4px;  
         margin-top: -2px;
-        letter-spacing: 0.3px;
+        letter-spacing: 0.0px;
     }
 
 
@@ -531,7 +531,7 @@
     }
     
     .Styles-btn-learnMore::before {
-        content: "• ";        
+        content: "• ";                
         color: red;
         position: absolute;
         top: 2px;
@@ -603,7 +603,7 @@
         font-size: 14px;        
         font-family: "acumin-pro-condensed";
         padding: 9px;
-        letter-spacing: 0.7px;
+        letter-spacing: 1px;
         transition: 0.5s !important;
     }
 
@@ -753,14 +753,14 @@
     color: black;
     text-align: center;
     margin-top: 30px;
-    font-family: "Acumin Pro Condensed";
+    font-family: "acumin-pro-condensed";
 
 }
 
 .modal-p {
     text-align: center;
     font-size: 18px;
-    font-family: "Acumin Pro Condensed";
+    font-family: "acumin-pro-condensed";
 }
 
 .modal-btn {
@@ -774,7 +774,7 @@
     color: white;
     text-align: center;
     margin-bottom: 30px;
-    font-family: "Acumin Pro Condensed";
+    font-family: "acumin-pro-condensed";
 }
 
 .modal-btn:hover {

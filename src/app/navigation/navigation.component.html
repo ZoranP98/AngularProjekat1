@@ -1,187 +1,221 @@
 <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="">
-            <img src="../../assets/Images/ProAmLogo.png" alt="PRO-AM Sports Medicine">
-        </a>
-        
-        <label class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span><span></span><span></span>
-        </label>
-        
-        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align-items-center">  
-              <li class="nav-item nav-active"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
-              <li class="nav-item "><a  routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
-              <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
-              <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
-            </ul>
-        </div> -->
-        <div *ngIf="router.url === '/'">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align-items-center">  
-              <li class="nav-item nav-active"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
-              <li class="nav-item"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
-              <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
-              <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
-            </ul>
-          </div>
+  <div class="container">
+      <a class="navbar-brand" href="">
+          <img src="../../assets/Images/ProAmLogo.png" alt="PRO-AM Sports Medicine">
+      </a>
+      
+      <label class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+      </label>
+      
+      
+        <div  *ngIf="router.url === '/'" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto align-items-center">  
+            <li class="nav-item nav-active" style="padding-bottom: 2px;"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
+            <li class="nav-item"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
+            <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
+            <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
+          </ul>
         </div>
-
-        <div *ngIf="router.url === '/AboutUsPage'">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align-items-center">  
-              <li class="nav-item"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
-              <li class="nav-item nav-active"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
-              <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
-              <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div *ngIf="router.url === '/OurServicesPage'">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align-items-center">  
-              <li class="nav-item"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
-              <li class="nav-item"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
-              <li class="nav-item  nav-active"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
-              <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div *ngIf="router.url === '/NewsPage' || router.url === '/singleNewsPage'">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto align-items-center">  
-              <li class="nav-item nav-active"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
-              <li class="nav-item"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
-              <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
-              <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
-              <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
-            </ul>
-          </div>
-        </div>
-
       
 
-    </div>
+      
+        <div *ngIf="router.url === '/AboutUsPage'" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto align-items-center">  
+            <li class="nav-item"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
+            <li class="nav-item nav-active"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
+            <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
+            <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
+          </ul>
+        </div>
+      
+
+      
+        <div *ngIf="router.url === '/OurServicesPage'" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto align-items-center">  
+            <li class="nav-item"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
+            <li class="nav-item"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
+            <li class="nav-item nav-active"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
+            <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
+          </ul>
+        </div>
+      
+
+      
+        <div *ngIf="router.url === '/NewsPage' || router.url === '/singleNewsPage'" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto align-items-center">  
+            <li class="nav-item nav-active"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
+            <li class="nav-item"><a routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
+            <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
+            <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
+          </ul>
+        </div>
+      
+
+    
+
+  </div>
 </nav>
 
 
 
 
 
-<!--Modal CONTACT US-->
+
 <div class="modal fade" id="contactModal" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" style="max-width: 811px; font-family: 'acumin-pro-condensed';">
-        <div class="modal-content">
-            <div class="modal-body d-flex">                  
-                <div class="modal-left bg-black d-none d-md-block">
-                    <div class="footer-title text-white">CONTACT INFORMATION</div>
-                    <hr style="margin: 15px 0 25px; background-color: #EB262A; opacity: 1; height: 3px !important; width: 50px;">
-                          <ul>                          
-                            <li>
-                                <a href="#" class="d-flex" style="text-decoration: none;" >
-                                    <img src="../../assets/Images/phone-alt.png" style="height: 16px; width: 16px;" alt="">
-                                    <span class="ps-3">OUR SUPPORT HOTLINE IS AVAILABLE <br>24 HOURS A DAY: <b>(800) 674-9515</b></span>
-                                </a>
-                            </li>
-  
-                            <li>
-                                <a href="#" class="d-flex" style="text-decoration: none;">
-                                    <img src="../../assets/Images/map-marker-alt.png" style="height: 16px; width: 16px;" alt="">
-                                    <span class="ps-3">6315 S Rainbow Blvd. Suite 104, Las Vegas, NV, 89118</span>
-                                </a>
-                            </li>
-  
-  
-                            <li>
-                                <a href="#" class="d-flex" style="text-decoration: none;">
-                                    <img src="../../assets/Images/envelope.png" style="height: 16px; width: 13px;" alt="">
-                                    <span class="ps-3">INFO@PROAMMEDICAL.COM</span>
-                                </a>
-                            </li>
-                          </ul>
-  
-  
-                          <ul class="footer-social d-flex">
-                            <li >
-                                <a href="#">
-                                    <img src="../../assets/Images/facebook-f.png" alt="F">
-                                </a>
-                            </li>
-                            <li class="ps-2">
-                                <a href="#">
-                                   <img src="../../assets/Images/instagram.png" alt="I">
-                                </a>
-                            </li>
-                            <li class="ps-2">
-                                <a href="#">
-                                    <img src="../../assets/Images/linkedin-in.png" alt="L">
-                                </a>
-                            </li>
-                    </ul>                      
-                </div>
-  
-  
-                <div class="modal-right">
-  
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>                      
-                    <div class="footer-title">SEND US A MESSAGE</div>
-                    <hr style="margin: 15px 0 25px; background-color: #EB262A; opacity: 1; height: 3px !important; width: 50px;">
-  
-  
-                    <div role="form">
-                      <div><p></p> <ul></ul></div>
-                       <form class="needs-validation" novalidate>                               
-                            <div class="row gx-4">
-                              <div class="col-6 mb-4">
-                                   <label class="labela" for="firName">First Name</label><br />
-                                   <span><input type="text" id="firName" class="form-control form1-control" required /><div class="invalid-feedback" role="alert" style="color: red;">
-                                    Please add a name.
-                                  </div></span>                                                         
+  <div class="modal-dialog modal-dialog-centered" style="max-width: 811px; font-family: 'acumin-pro-condensed';">
+      <div class="modal-content">
+          <div class="modal-body d-flex">                  
+              <div class="modal-left bg-black d-none d-md-block">
+                  <div class="footer-title text-white">CONTACT INFORMATION</div>
+                  <hr style="margin: 15px 0 25px; background-color: #EB262A; opacity: 1; height: 3px !important; width: 50px;">
+                        <ul>                          
+                          <li>
+                              <a href="#" class="d-flex" style="text-decoration: none;" >
+                                  <img src="../../assets/Images/phone-alt.png" style="height: 16px; width: 16px;" alt="">
+                                  <span class="ps-3">OUR SUPPORT HOTLINE IS AVAILABLE <br>24 HOURS A DAY: <b>(800) 674-9515</b></span>
+                              </a>
+                          </li>
+
+                          <li>
+                              <a href="#" class="d-flex" style="text-decoration: none;">
+                                  <img src="../../assets/Images/map-marker-alt.png" style="height: 16px; width: 16px;" alt="">
+                                  <span class="ps-3">6315 S Rainbow Blvd. Suite 104, Las Vegas, NV, 89118</span>
+                              </a>
+                          </li>
+
+
+                          <li>
+                              <a href="#" class="d-flex" style="text-decoration: none;">
+                                  <img src="../../assets/Images/envelope.png" style="height: 16px; width: 13px;" alt="">
+                                  <span class="ps-3">INFO@PROAMMEDICAL.COM</span>
+                              </a>
+                          </li>
+                        </ul>
+
+
+                        <ul class="footer-social d-flex">
+                          <li >
+                              <a href="#">
+                                  <img src="../../assets/Images/facebook-f.png" alt="F">
+                              </a>
+                          </li>
+                          <li class="ps-2">
+                              <a href="#">
+                                 <img src="../../assets/Images/instagram.png" alt="I">
+                              </a>
+                          </li>
+                          <li class="ps-2">
+                              <a href="#">
+                                  <img src="../../assets/Images/linkedin-in.png" alt="L">
+                              </a>
+                          </li>
+                  </ul>                      
+              </div>
+
+
+              <div class="modal-right">
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>                      
+                  <div class="footer-title">SEND US A MESSAGE</div>
+                  <hr style="margin: 15px 0 25px; background-color: #EB262A; opacity: 1; height: 3px !important; width: 50px;">
+
+
+                  <div role="form">
+                    <div><p></p> <ul></ul></div>
+                     <form class="needs-validation" novalidate>                               
+                          <div class="row gx-4">
+                            <div class="col-6 mb-4">
+                                 <label class="labela" for="firName">First Name</label><br />
+                                 <span><input type="text" id="firName" class="form-control form1-control" required /><div class="invalid-feedback" role="alert" style="color: red;">
+                                  Please add a name.
+                                </div></span>                                                         
+                           </div>
+                            <div class="col-6 mb-4">
+                              <label class="labela">Last Name</label><br />
+                              <span><input type="text" class="form-control form1-control" aria-required="true" aria-invalid="false" required/><div class="invalid-feedback" role="alert" style="color: red;">
+                                Please add a last name.
+                              </div></span>
+                            </div>
+                            <div class="col-sm-6 mb-4">          
+                                    <label class="labela">Email</label><br />
+                                    <span><input type="email" class="form-control form1-control" aria-required="true" aria-invalid="false" required /><div class="invalid-feedback" role="alert" style="color: red;">
+                                      Please add an email.
+                                    </div></span>
                              </div>
-                              <div class="col-6 mb-4">
-                                <label class="labela">Last Name</label><br />
-                                <span><input type="text" class="form-control form1-control" aria-required="true" aria-invalid="false" required/><div class="invalid-feedback" role="alert" style="color: red;">
-                                  Please add a last name.
-                                </div></span>
-                              </div>
-                              <div class="col-sm-6 mb-4">          
-                                      <label class="labela">Email</label><br />
-                                      <span><input type="email" class="form-control form1-control" aria-required="true" aria-invalid="false" required /><div class="invalid-feedback" role="alert" style="color: red;">
-                                        Please add an email.
+                              <div class="col-sm-6 mb-4">
+                                      <label class="labela">Phone</label><br />
+                                      <span><input type="number" class="form-control form1-control" aria-required="true" aria-invalid="false" required/><div class="invalid-feedback" role="alert" style="color: red;">
+                                        Please add a phone.
                                       </div></span>
-                               </div>
-                                <div class="col-sm-6 mb-4">
-                                        <label class="labela">Phone</label><br />
-                                        <span><input type="number" class="form-control form1-control" aria-required="true" aria-invalid="false" required/><div class="invalid-feedback" role="alert" style="color: red;">
-                                          Please add a phone.
-                                        </div></span>
-                                </div>
-                                <div class="col-12 mb-4">
-                                  <label for="message" class="labela">Message</label><br />
-                                  <span class=""><textarea name="message" cols="40" rows="2" class="form-control form1-control" aria-required="true" aria-invalid="false" placeholder="Write your message…" required></textarea><div class="invalid-feedback" role="alert" style="color: red;">
-                                    Please add a message.
-                                  </div></span>
-                                </div>              
-                                <div class="col-12 text-center mt-3" >
-                                        <input type="submit" class="btn contactUsBtn" style="padding-top: 5px;">                                     
-                                    </div>
-                            </div>        
-                          </form>
-                        </div>                        
-                      </div>                
-                    </div>
+                              </div>
+                              <div class="col-12 mb-4">
+                                <label for="message" class="labela">Message</label><br />
+                                <span class=""><textarea name="message" cols="40" rows="2" class="form-control form1-control" aria-required="true" aria-invalid="false" placeholder="Write your message…" required></textarea><div class="invalid-feedback" role="alert" style="color: red;">
+                                  Please add a message.
+                                </div></span>
+                              </div>              
+                              <div class="col-12 text-center mt-3" >
+                                      <input type="submit" class="btn contactUsBtn" style="padding-top: 5px;">                                     
+                                  </div>
+                          </div>        
+                        </form>
+                      </div>                        
+                    </div>                
                   </div>
                 </div>
-              </div>  
-  
+              </div>
+            </div>  
+
+
+            <!-- <nav class="navbar navbar-expand-lg fixed-top">
+              <div class="container">
+                  <a class="navbar-brand" href="">
+                      <img src="../../assets/Images/ProAmLogo.png" alt="PRO-AM Sports Medicine">
+                  </a>
+                  
+                  <label class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span></span><span></span><span></span>
+                  </label>
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto align-items-center">  
+                        <li class="nav-item nav-active"><a routerLink="" routerLinkActive="active" class="nav-link ">HOME</a></li>
+                        <li class="nav-item "><a  routerLink="../AboutUsPage" routerLinkActive="active" class="nav-link ">ABOUT US</a></li>
+                        <li class="nav-item"><a routerLink="../OurServicesPage" routerLinkActive="active" class="nav-link nav-link-services">OUR SERVICES</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link ">INJURY TREATMENT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link ">PATIENT PORTAL</a></li>
+                        <li class=""><a href="#" class="nav-link contactUsBtn" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT US</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

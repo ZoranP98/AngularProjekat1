@@ -131,4 +131,21 @@
 
 
 
+.dugmeNews{    
+    background: #eb262a;
+    color: #FFFFFF;
+    padding: 8px;
+    width: 116px;
+    height: 40px;
+    text-decoration: uppercase;
+    text-decoration: none !important; 
+    font-family: "Acumin Pro Condensed";   
+    transition: 0.5s !important; 
+}
+    
+.dugmeNews:hover{    
+    background-color: #CE2023;
+    color: #FFFFFF;
+    transform: translateY(-3px) !important;
+}
 

@@ -1,5 +1,5 @@
 .kartica{
-    transition: 0.5s !important;
+    transition: 0.5s !important;    
 }
 
 .kartica:hover{
@@ -32,33 +32,41 @@ box-shadow: 0px 12px 24px #00000029;
     margin-top: 7px; 
     margin-bottom: 7px; 
     font-family: 'Open Sans', sans-serif; 
-    font-weight: bold; 
-    padding-left:10px;
+    font-weight: 600; 
+    padding-left: 10px;
+    letter-spacing: 0.0px;
 }
 
 .news-card-title{
-    font-size: 29px; 
+    font-size: 28px; 
     padding-left: 10px;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     color: #000000;
+    letter-spacing: 0px !important;
+    font-weight: 700 !important;
+    word-spacing: 0px !important;
+    line-height: 32px;
 }
 
 .news-card-txt{
     font-size: 14px; 
-    margin-top: 10px;
+    margin-top: 13px;
     padding-left: 10px;
-    font-family: 'Open Sans', sSans-serif; 
+    font-family: 'Open Sans', sans-serif; 
     color: #606060;
-    padding-right: 15px !important;
-    letter-spacing: 0.3px;
-
+    padding-right: 10px !important;
+    font-weight: 400 !important; 
+    letter-spacing: 0px;
+    line-height: 21px;
 }
 
 .news-card-readMore{
     font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
     font-size: 15px;
     text-decoration: none;
-    padding-left: 10px;        
+    padding-left: 10px; 
+    margin-top: -10px !important;                        
 }
 .news-card-readMore:hover{
     color: #EB262A !important;
@@ -142,8 +150,8 @@ box-shadow: 0px 12px 24px #00000029;
         text-align: center; 
         border-bottom: 2px solid rgba(82, 80, 80, 0.171); 
         line-height: 0.1em;
-        margin: 10px 0 20px; 
-        line-height: 32px;
+        margin: 10px 0 20px;       
+        margin-bottom: 60px;
     }
 
     .news-card-date-p{
@@ -152,34 +160,41 @@ box-shadow: 0px 12px 24px #00000029;
         margin-top: 7px; 
         margin-bottom: 7px; 
         font-family: 'Open Sans', sans-serif; 
-        font-weight: bold; 
-        padding-left:10px;
-        letter-spacing: 0.2px;
+        font-weight: 600; 
+        padding-left: 10px;
+        letter-spacing: 0.0px;
     }
 
     .news-card-title{
-        font-size: 29px; 
+        font-size: 28px; 
         padding-left: 10px;
-        font-family: 'Open Sans', sans-serif; 
+        font-family: 'Open Sans', sans-serif;
         color: #000000;
+        letter-spacing: 0px !important;
+        font-weight: 700 !important;
+        word-spacing: 0px !important;
+        line-height: 32px;
     }
 
     .news-card-txt{
         font-size: 14px; 
-        margin-top: 10px;
+        margin-top: 13px;
         padding-left: 10px;
-        font-family: 'Open Sans', sSans-serif; 
+        font-family: 'Open Sans', sans-serif; 
         color: #606060;
-        padding-right: 15px !important;
-        letter-spacing: 0.3px;
-
+        padding-right: 10px !important;
+        font-weight: 400 !important; 
+        letter-spacing: 0px;
+        line-height: 21px;
     }
 
     .news-card-readMore{
         font-family: 'Open Sans', sans-serif; 
+        font-weight: 600;
         font-size: 15px;
         text-decoration: none;
-        padding-left: 10px;                    
+        padding-left: 10px; 
+        margin-top: -10px !important;                        
     }
     .news-card-readMore:hover{
         color: #EB262A !important;
@@ -237,7 +252,24 @@ box-shadow: 0px 12px 24px #00000029;
         background-color: #CE2023 !important;
     }
     
+    .first{
+        padding-left: 69px;
+     }
+     
+     .odd{
+         padding-left: 42px;   
+         padding-right: 42px;
+     }
+     
+     .last{
+         padding-left: 16px;
+         padding-right: 70px;
+     }
 }
+
+
+
+
 
 
 // .zaKarte:hover{
@@ -264,7 +296,7 @@ box-shadow: 0px 12px 24px #00000029;
 // height: 40px;
 // text-decoration: uppercase;
 // text-decoration: none !important; 
-// font-family: "Acumin Pro Condensed";  
+// font-family: "acumin-pro-condensed";  
 // transition: 0.5s !important; 
 // }
 
