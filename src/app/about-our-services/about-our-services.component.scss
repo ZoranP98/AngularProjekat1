@@ -299,7 +299,7 @@
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 990px) {
+@media screen and (min-width: 350px) and (max-width: 990px) {
 
     .HorizontalLine{
         display: none !important;
@@ -804,3 +804,31 @@
     transform: translateY(-3px) !important;
     background-color: #CE2023 !important;
 }
+
+
+
+@media screen and (min-width: 370px) and (max-width: 410px)  {
+    .ourServicesTekst{
+        font-size: 42px; 
+        font-weight: 700; 
+        margin-top: 220px;    
+        font-family: "acumin-pro-extra-condensed";
+    }
+
+    .Services-btn-Planning{
+        margin-top: 10px;
+    }
+
+    .ourServices-covidDiv{
+        padding: 24px; 
+        color: #8D8D8D; 
+        margin-top: 20px;  
+        margin: auto;
+        width: 90% !important;
+    }
+    
+}
+
+
+
+

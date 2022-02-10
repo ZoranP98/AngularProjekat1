@@ -272,6 +272,19 @@ box-shadow: 0px 12px 24px #00000029;
 
 
 
+@media screen and (min-width: 370px) and (max-width: 410px)  {
+    .aboveFooterDiv{
+        height: 500px;
+    }
+
+    .bottomCoverH1{
+        font-size: 40px;
+        font-family: "acumin-pro-extra-condensed";
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        padding-left: 5px !important;
+    }
+}
 
 
 
