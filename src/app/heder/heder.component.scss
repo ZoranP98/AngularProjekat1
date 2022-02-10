@@ -76,8 +76,41 @@
     .restVersion{
         display: none !important;
     }
+
+    .HeaderCoverDiv{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,1)), url(../../assets/Images/coverSlika1.jpg); 
+        height: 815px; 
+        border-bottom: 2px solid #EB262A;
+    }
+
+    .marginRight48{
+        margin-right: 48px;
+    }
+    .marginRight47{
+        margin-right: 47px;
+    }
+    .marginRight50{
+        margin-right: 50px;
+    }
+    .marginTop1{
+        margin-top: -1px;
+    }
+    .marginTop8{
+        margin-top: -8px;
+    }
+    .marginTop12{
+        margin-top: -12px;
+    }
+    .marginTop3{
+        margin-top: -3px;
+    }
 }
 
+.HeaderCoverDiv{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,1)), url(../../assets/Images/coverSlika1.jpg); 
+    height: 815px; 
+    border-bottom: 2px solid #EB262A;
+}
 
 .fullHdversion{
     display: none;
