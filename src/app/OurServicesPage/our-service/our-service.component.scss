@@ -68,7 +68,7 @@
 
 
 
-@media screen and (min-width: 400px) and (max-width: 765px) {
+@media screen and (min-width: 350px) and (max-width: 765px) {
     .mobilnaVarijanta{
        display: block !important;
     }
@@ -87,6 +87,27 @@
      display: block;
 }
 
+.mobileDiv{
+    background-image:linear-gradient(to left, rgba(255,0,0,0), rgb(8, 8, 8)) ,url(../../../assets/Images/pro-am-our_services-pre_comp_medicals.jpg); 
+    object-fit: cover; 
+    height: 260px;
+}
+
+@media screen and (min-width: 370px) and (max-width: 420px)  {
+
+    .serivesDetailTextP{
+        width: 350px; 
+        font-size: 14px; 
+        line-height: 20px;
+    }
+
+    .mobileDiv{
+        background-image:linear-gradient(to left, rgba(255,0,0,0), rgb(8, 8, 8)) ,url(../../../assets/Images/pro-am-our_services-pre_comp_medicals.jpg); 
+        object-fit: none !important; 
+        height: 260px;
+    }
+
+}
 
 
 /* MODAL 2 |  */

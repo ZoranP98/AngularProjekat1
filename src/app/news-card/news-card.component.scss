@@ -270,11 +270,20 @@ box-shadow: 0px 12px 24px #00000029;
      }
 }
 
+.bottomCoverDiv{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 66%; 
+    text-align: center; 
+    width: 60%;
+}
 
-
-@media screen and (min-width: 370px) and (max-width: 410px)  {
+@media screen and (min-width: 370px) and (max-width: 500px)  {
     .aboveFooterDiv{
-        height: 500px;
+         height: 400px;
     }
 
     .bottomCoverH1{
@@ -284,6 +293,18 @@ box-shadow: 0px 12px 24px #00000029;
         letter-spacing: 0.3px;
         padding-left: 5px !important;
     }
+
+    .bottomCoverDiv{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 50%; 
+        text-align: center; 
+        width: 60%;
+    }
+    
 }
 
 

@@ -48,7 +48,7 @@
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 990px) {
+@media screen and (min-width: 350px) and (max-width: 990px) {
 
     .HorizontalLine{
         display: none !important;
@@ -149,3 +149,18 @@
     transform: translateY(-3px) !important;
 }
 
+
+
+
+@media screen and (min-width: 370px) and (max-width: 420px)  {
+    .firstserv2{
+        margin-top: -30px;
+    }
+    .ourServices-covidDiv{
+        padding: 24px; 
+        color: #8D8D8D; 
+        margin-top: 20px;  
+        margin: auto;
+        width: 90% !important;
+    }
+}

@@ -149,10 +149,12 @@
     }
 
     .HeaderCoverDiv{
-        background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,1)), url(../../assets/Images/coverSlika1.jpg); 
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,1)), url(../../assets/Images/coverSlika1.jpg); background-size: cover !important; 
         height: 500px; 
         border-bottom: 2px solid #EB262A;
     }
+
+
 }
 
 
