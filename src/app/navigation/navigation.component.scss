@@ -90,15 +90,16 @@
         line-height: 20px !important;
         display: block;
         transition: 0.5s !important;
-        margin-bottom: 10px;     
-        
+        margin-bottom: 10px;         
         text-align: center;    
     }
 
-    .nav-item{
-        //background-color: blue;
+    .nav-item{        
         margin-left: 0px;
+        margin-top: 25px;        
     }
+
+
 
     .nav-active{               
         color: #EB262A !important;    

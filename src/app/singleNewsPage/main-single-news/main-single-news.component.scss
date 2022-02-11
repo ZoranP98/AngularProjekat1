@@ -13,3 +13,30 @@
     margin-bottom: 15px;
     font-family: "acumin-pro-condensed";
 } 
+
+
+.header-coverDiv{     
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(8, 8, 8)) , url(../../../assets/Images/cover-news.jpg); 
+    height: 450px;
+    border-bottom: 3px solid #EB262A;        
+}
+
+@media screen and (min-width: 370px) and (max-width: 420px)  {
+
+    .header-coverDiv{     
+        height: 350px !important;        
+    }
+
+    .coverText {
+       top: 190px;
+    }
+    
+    .coverText h1 {
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 1;
+        margin-bottom: 15px;
+        font-family: "acumin-pro-condensed";
+    } 
+
+}
