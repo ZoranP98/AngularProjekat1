@@ -5,7 +5,7 @@
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 516px) {
+@media screen and (min-width: 421px) and (max-width: 516px) {
     .slikaVelicina{
         height: 550px !important;
         width: 400px !important; 
@@ -132,9 +132,12 @@
 
 @media screen and (min-width: 360px) and (max-width: 420px)  {
     .slikaVelicina{
-        height: 400px !important;
-        width: 285px !important; 
+        // height: 400px !important;
+        width: 289px !important; 
     }
 
+    .osobaDetalji {
+        padding-left: 30px !important;        
+    }
     
 }

@@ -151,6 +151,17 @@
 
 
 
+.servicesFooterDiv{
+    background-image:linear-gradient(to top, rgba(255,0,0,0), rgb(8, 8, 8)) , url(../../../assets/Images/pro-am-our_services-cta.jpg); 
+    height: 620px;
+}
+
+.servicesFooterH1{
+    font-family: 'acumin-pro-condensed'; 
+    font-size: 60px; 
+    line-height: 60px; 
+    margin-top: 50px;
+}
 
 @media screen and (min-width: 360px) and (max-width: 420px)  {
     .firstserv2{
@@ -162,5 +173,17 @@
         margin-top: 20px;  
         margin: auto;
         width: 90% !important;
+    }
+
+    .servicesFooterDiv{
+        background-image:linear-gradient(to top, rgba(255,0,0,0), rgb(8, 8, 8)) , url(../../../assets/Images/pro-am-our_services-cta.jpg); 
+        height: 380px !important;
+    }
+
+    .servicesFooterH1{
+        font-family: 'acumin-pro-condensed'; 
+        font-size: 40px; 
+        line-height: 60px; 
+        margin-top: 50px;
     }
 }

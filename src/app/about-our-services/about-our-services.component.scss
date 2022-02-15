@@ -807,7 +807,7 @@
 
 
 
-@media screen and (min-width: 360px) and (max-width: 410px)  {
+@media screen and (min-width: 360px) and (max-width: 420px)  {
     .ourServicesTekst{
         font-size: 42px; 
         font-weight: 700; 
@@ -834,8 +834,17 @@
     .list-ourServices{
         margin-bottom: 20px !important;
     }
+
+   
 }
 
 
+
+
+@media screen and (min-width: 396px) and (max-width: 420px)  {
+    .Services-btn-Planning{
+        margin-top: 0px;
+    }
+}
 
 
