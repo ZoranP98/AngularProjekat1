@@ -10,25 +10,47 @@ export class NavigationComponent implements OnInit {
 
   constructor(public router: Router) { }
 
-  ngOnInit(): void {
+  // ngOnInit(): void {
 
-    (function() {
-      'use strict';
-      window.addEventListener('load', function() {
+  //   (function() {
+  //     'use strict';
+  //     window.addEventListener('load', function() {
         
-        var forms = document.getElementsByClassName('needs-validation');
+  //       var forms = document.getElementsByClassName('needs-validation');
         
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event: { preventDefault: () => void; stopPropagation: () => void; }) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
+  //       var validation = Array.prototype.filter.call(forms, function(form) {
+  //         form.addEventListener('submit', function(event: { preventDefault: () => void; stopPropagation: () => void; }) {
+  //           if (form.checkValidity() === false) {
+  //             event.preventDefault();
+  //             event.stopPropagation();
+  //           }
+  //           form.classList.add('was-validated');
+  //         }, false);
+  //       });
+  //     }, false);
+  //   })();
+  // }
+
+
+  ngOnInit(): void {
+    
+    (function () {
+      'use strict'
+    
+      let forms = document.querySelectorAll('.needs-validation')
+    
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event: any) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
             }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    })();
-  }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+      }
 
 }
